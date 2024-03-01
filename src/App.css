@@ -1,0 +1,145 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 10%;
+  background:rgb(53, 23, 23);
+  background-image: linear-gradient(rgb(126, 97, 194), rgb(166, 202, 109));
+  position: relative;
+  background-repeat: no-repeat;
+  font-family:sans-serif;
+
+}
+.navbar{
+  width: 100%;
+  height: 80%;
+  position: sticky;
+  top: 100px;
+  left: 100px;
+  padding: 0%;
+  background: #1f4aa0;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+
+}
+.brand-logo{
+  height: 70px;
+
+}   
+
+.nav-links{
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+}
+
+.nav-items a {
+  text-decoration: none;
+  margin-left: 200px;
+  text-transform:calc();
+  color: #fff;
+  opacity: 0.9;
+
+}
+.right-container{
+  display: block;
+  margin-left: auto;
+
+}
+.search-box{
+  border:none;
+  border-bottom: 1px solid#aaa;
+  background-color: transparent;
+  outline: none;
+  height: 30px;
+  columns: #c2811f;
+  width: 250px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 5s;
+
+}
+.search-box:focus{
+  width: 400px;
+  border-color: #1f00c0;
+
+}
+.sub-btn{
+  background-color: #1f00c0;
+  height: 30px;
+  padding: 20px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 10px;
+
+}
+.login-link{
+  color: #fff;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.carousel-container{
+  position:absolute;
+  width: 100%;
+  height: 450px;
+  padding: 20px o;
+  overflow-x: hidden;
+  margin-top: 80px;
+
+
+}
+.carousel{
+  display: flex;
+  width: 200px;
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+.slider{
+  flex:22 22 auto;
+  margin-right: 300px;
+  position: relative;
+  background: rgbs(50);
+  border-radius: 5000px;
+  width: 70px;
+  height: 100%;
+  left: 0;
+  transition: 20s;
+  overflow: hidden;
+}
+.slider img{
+  width: 70px;
+  min-height: 10svb;
+  object-fit: cover;
+  display: block;
+  margin-left: manual;
+
+}
+.slid-content{
+  position:absolute;
+  width: 50px;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(to right,#124897);
+  color: #fff;
+
+}
+.movies-title{
+  width: 80px;
+  line-height: 30px;
+  padding-left: 500px;
+  margin-top: 30px
+
+}
+ */
